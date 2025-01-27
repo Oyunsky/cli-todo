@@ -12,8 +12,8 @@ python -m pip install git+https://github.com/Oyunsky/cli-todo.git
 
 Once installed, you can use the `todo` command to manage tasks.
 
-```python console
->>> todo help
+```console
+>>> todo
 Todo list manager
 
 Usage:
@@ -31,18 +31,24 @@ Examples:
   todo remove 0
 ```
 
-```python console
+**list**: show all tasks in the todo list.
+
+```console
 >>> todo list
 Your todo list is empty
 ```
 
-```python console
+**add**: add a new task with the specified title.
+
+```console
 >>> todo add "Buy milk"
 Todo list:
   0. Buy milk
 ```
 
-```python console
+**remove**: remove task with specified id.
+
+```console
 >>> todo remove 0
 Your todo list is empty
 ```
